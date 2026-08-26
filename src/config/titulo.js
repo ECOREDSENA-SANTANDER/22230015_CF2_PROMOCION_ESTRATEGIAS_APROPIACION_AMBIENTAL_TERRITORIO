@@ -1,1 +1,2 @@
-module.exports = 'Gestión comunitaria, gobernanza ambiental y desarrollo territorial'
+module.exports =
+  'Gestión comunitaria, gobernanza ambiental y desarrollo territorial'

@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
+    p La gestión comunitaria fortalece la gobernanza ambiental mediante la participación ciudadana, el cumplimiento de la normativa y la construcción de acuerdos para el manejo sostenible del territorio. El diálogo, la concertación y la resolución pacífica de conflictos favorecen la cooperación entre comunidades e instituciones. Asimismo, la prospectiva territorial, la formulación de proyectos, el emprendimiento y la gestión del conocimiento permiten aprovechar las capacidades locales, conservar los recursos naturales y mejorar la calidad de vida. Estos procesos forman ciudadanos capaces de liderar iniciativas colectivas orientadas al desarrollo sostenible.
     
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La gestión comunitaria integra la normatividad ambiental y los derechos territoriales con la participación ciudadana, la concertación y la resolución de conflictos. Asimismo, promueve la prospectiva territorial, el desarrollo local sostenible, la formulación de proyectos, la comunicación asertiva, el bienestar colectivo y la gestión del conocimiento para fortalecer la gobernanza ambiental y territorial. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
