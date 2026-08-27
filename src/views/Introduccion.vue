@@ -8,13 +8,13 @@
         span
           i.fas.fa-info
       h1 Introducción
-    img.d-none.d-lg-block.mb-3(src='@/assets/curso/temas/intro/1.png', alt='')
+    img.d-none.d-lg-block.mb-3(src='@/assets/curso/temas/intro/1.png')
     p.mb-5 La gestión comunitaria y la gobernanza ambiental son fundamentales para promover el desarrollo sostenible, fortalecer la participación ciudadana y orientar la toma de decisiones hacia el bienestar colectivo. En este contexto, el conocimiento de la normatividad ambiental, los derechos territoriales y los mecanismos de participación permite a las comunidades intervenir activamente en la planificación del territorio, la conservación de los recursos naturales y la gestión del desarrollo local.
 
 
     .row.justify-content-center.mb-5.align-items-end
       .col-sm-12.col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/temas/intro/2.png', alt='')
+        img(src='@/assets/curso/temas/intro/2.png')
       .col-sm-12.col-lg-9
         .bg-color-1.px-5.py-4.mb-4
           p.mb-0 Ante los desafíos relacionados con el aprovechamiento sostenible de los recursos, la protección de los derechos colectivos y la resolución de conflictos socioambientales, es necesario fortalecer capacidades para el diálogo, la concertación y la construcción de acuerdos entre los actores territoriales. Asimismo, la comunicación asertiva, la asociatividad, el intercambio de conocimientos y la articulación entre comunidades, instituciones públicas y organizaciones sociales contribuyen al fortalecimiento del tejido social y al desarrollo de procesos de gestión inclusivos, transparentes y participativos.
