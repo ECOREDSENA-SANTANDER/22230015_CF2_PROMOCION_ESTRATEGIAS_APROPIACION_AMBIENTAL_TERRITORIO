@@ -2,12 +2,12 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos='fade-right')
         .titulo-principal__numero
           span 3
         h1 Prospectiva, desarrollo local y formulación de iniciativas territoriales
       
-      p.mb-5 La gestión sostenible del territorio requiere una visión de futuro que permita identificar oportunidades, anticipar desafíos y orientar acciones encaminadas al bienestar de las comunidades y la conservación ambiental. En este contexto, la prospectiva territorial constituye una herramienta fundamental para analizar las condiciones actuales del territorio, proyectar escenarios futuros y construir estrategias que contribuyan al desarrollo local sostenible.
+      p.mb-5(data-aos='fade-right') La gestión sostenible del territorio requiere una visión de futuro que permita identificar oportunidades, anticipar desafíos y orientar acciones encaminadas al bienestar de las comunidades y la conservación ambiental. En este contexto, la prospectiva territorial constituye una herramienta fundamental para analizar las condiciones actuales del territorio, proyectar escenarios futuros y construir estrategias que contribuyan al desarrollo local sostenible.
 
       .row.justify-content-center.mb-0.bg-primario(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block.mcus-1
@@ -21,9 +21,9 @@
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.1 Prospectiva territorial
 
-      p.mb-5 La prospectiva territorial es un proceso de análisis y construcción colectiva orientado a comprender las dinámicas actuales del territorio y explorar posibles escenarios futuros. Su propósito es apoyar la toma de decisiones estratégicas mediante la identificación de tendencias, oportunidades, riesgos y alternativas de desarrollo.
+      p.mb-5(data-aos='fade-right') La prospectiva territorial es un proceso de análisis y construcción colectiva orientado a comprender las dinámicas actuales del territorio y explorar posibles escenarios futuros. Su propósito es apoyar la toma de decisiones estratégicas mediante la identificación de tendencias, oportunidades, riesgos y alternativas de desarrollo.
       
-      .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5(data-aos='fade-right')
         .bloque-texto-g__img.d-none.d-lg-block(
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/3.png')})`}"
         )
@@ -114,7 +114,7 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.2 Identificación de oportunidades territoriales
 
-      .tarjeta.bg-fondo-2.p-4
+      .tarjeta.bg-fondo-2.p-4(data-aos='fade-right')
         SlyderA(tipo="b")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5
@@ -169,10 +169,10 @@
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.3 Desarrollo local sostenible
       
-      p.mb-3 El desarrollo local es un proceso mediante el cual las comunidades fortalecen sus capacidades para mejorar las condiciones económicas, sociales, culturales y ambientales del territorio.
-      p.mb-5 Se fundamenta en la participación de los actores locales y en el aprovechamiento de los recursos y potencialidades existentes.
+      p.mb-3(data-aos='fade-right') El desarrollo local es un proceso mediante el cual las comunidades fortalecen sus capacidades para mejorar las condiciones económicas, sociales, culturales y ambientales del territorio.
+      p.mb-5(data-aos='fade-right') Se fundamenta en la participación de los actores locales y en el aprovechamiento de los recursos y potencialidades existentes.
       
-      TabsC.color-acento-botones
+      TabsC.color-acento-botones(data-aos='fade-right')
         .py-3.py-md-4(titulo="Tipos de desarrollo local")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-6.d-none.d-lg-block
@@ -269,7 +269,7 @@
       #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.4 Emprendimiento y formulación de proyectos
       
-      p.mb-5 El emprendimiento es la capacidad de identificar oportunidades y transformarlas en iniciativas que generen valor económico, social o ambiental. El desarrollo de iniciativas emprendedoras puede involucrar capacidades y criterios como:
+      p.mb-5(data-aos='fade-right') El emprendimiento es la capacidad de identificar oportunidades y transformarlas en iniciativas que generen valor económico, social o ambiental. El desarrollo de iniciativas emprendedoras puede involucrar capacidades y criterios como:
 
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-md-6.col-lg-4.mb-cus
@@ -315,14 +315,14 @@
                 h4.text-center.mb-0 Trabajo colaborativo.
 
 
-      .titulo-tercer-nivel.mb-5
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Identificación de iniciativas emprendedoras
-      p.mb-3 Las iniciativas emprendedoras surgen de la observación de necesidades, problemáticas y oportunidades presentes en el territorio. Los criterios de identificación son:
+      p.mb-3(data-aos='fade-right') Las iniciativas emprendedoras surgen de la observación de necesidades, problemáticas y oportunidades presentes en el territorio. Los criterios de identificación son:
 
      
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.bg-color-1.pcus-3
             ul.lista-ul.mb-0
                 li.d-flex
@@ -345,11 +345,11 @@
                   i.fas.fa-flag.color-acento-contenido
                   p.mb-0 Sostenibilidad ambiental. 
 
-      .titulo-tercer-nivel.mb-5
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Viabilidad técnica y económica
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-8
             p.mb-5 La viabilidad es el proceso mediante el cual se analiza si una iniciativa, proyecto o emprendimiento cuenta con las condiciones necesarias para ejecutarse de manera exitosa y alcanzar los resultados esperados. Este análisis permite valorar de forma anticipada los recursos disponibles, las capacidades de los actores involucrados, las condiciones del entorno y los posibles riesgos que podrían afectar su implementación. Evaluar la viabilidad antes de poner en marcha una iniciativa facilita la toma de decisiones fundamentadas, optimiza el uso de los recursos y aumenta las posibilidades de éxito. Generalmente, la viabilidad se estudia desde diferentes perspectivas; entre las más importantes se encuentran la viabilidad técnica y la viabilidad económica, las cuales ofrecen una visión integral sobre las posibilidades reales de desarrollar un proyecto.
 
@@ -358,14 +358,14 @@
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/28.png')
       
-      p.mb-5 Por su parte, la viabilidad económica determina si el proyecto es financieramente sostenible, mediante el análisis de los costos de implementación, los ingresos esperados, las fuentes de financiación, la rentabilidad, el flujo de recursos y la capacidad para mantenerse en el tiempo. En conjunto, estos análisis permiten reducir la incertidumbre y los riesgos asociados a la ejecución del proyecto, identificar posibles limitaciones antes de su implementación y facilitar la toma de decisiones estratégicas para seleccionar las alternativas más convenientes, sostenibles y acordes con las necesidades del territorio y de la comunidad.
+      p.mb-5(data-aos='fade-right') Por su parte, la viabilidad económica determina si el proyecto es financieramente sostenible, mediante el análisis de los costos de implementación, los ingresos esperados, las fuentes de financiación, la rentabilidad, el flujo de recursos y la capacidad para mantenerse en el tiempo. En conjunto, estos análisis permiten reducir la incertidumbre y los riesgos asociados a la ejecución del proyecto, identificar posibles limitaciones antes de su implementación y facilitar la toma de decisiones estratégicas para seleccionar las alternativas más convenientes, sostenibles y acordes con las necesidades del territorio y de la comunidad.
 
-      .titulo-tercer-nivel.mb-5
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Perfil de proyecto y metodología de construcción
 
-      p.mb-5 El perfil de proyecto es un documento preliminar que describe una iniciativa y permite evaluar su pertinencia y factibilidad. A continuación, los componentes básicos del perfil de proyecto:
-      .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5
+      p.mb-5(data-aos='fade-right') El perfil de proyecto es un documento preliminar que describe una iniciativa y permite evaluar su pertinencia y factibilidad. A continuación, los componentes básicos del perfil de proyecto:
+      .bloque-texto-g.bloque-texto-g--inverso.bg-color-2.p-3.p-sm-4.p-md-5.mb-5(data-aos='fade-right')
         .bloque-texto-g__img.d-none.d-lg-block(
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t3/29.png')})`}"
         )
@@ -399,16 +399,16 @@
                 li.d-flex
                   i.fas.fa-flag.color-acento-contenido
                   p.mb-0 Resultados esperados.  
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .cajon.color-primario.p-4.mb-0
               h4 Nota:
               p.mb-0 Constituye la base para la formulación y gestión de proyectos territoriales.
 
-      .titulo-tercer-nivel.mb-5
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Fuentes de financiación y cooperación para proyectos territoriales
-      p.mb-5 Los proyectos comunitarios pueden acceder a diferentes mecanismos de financiación y cooperación para apoyar su implementación.
+      p.mb-5(data-aos='fade-right') Los proyectos comunitarios pueden acceder a diferentes mecanismos de financiación y cooperación para apoyar su implementación.
       .row.justify-content-center.mb-5.bg-primario(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block.mcus-1
           img(src='@/assets/curso/temas/t3/30.png')
@@ -434,7 +434,7 @@
               li.d-flex
                 i.fas.fa-flag.color-acento-contenido
                 p.mb-0 Empresas privadas con programas de responsabilidad social. 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .cajon.color-secundario.p-4.mb-0
               h4 Nota:
