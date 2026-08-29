@@ -166,6 +166,32 @@ figcaption
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
       color: $color-sistema-texto !important
       font-style: normal !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones;
+    border: 0;
+.slyder-a__bullets__item 
+    background-color: #E5FAFE
+    border: 0;
+
+.slyder-a__bullets__item--active
+    background-color: $color-acento-botones;
+    border: 0;
+
+
+.tabs-c.color-acento-botones .tabs-c__tab
+    background-color: #E2E2E2
+    border-bottom-color: #E2E2E2
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+    background-color: #E5FAFE
+    border-bottom-color: $color-acento-botones !important
+    color: $color-sistema-texto !important
+
+.tabs-c.color-acento-botones .tabs-c__tab--active:before
+    border-top-color: $color-acento-botones !important
+    
+.tabs-c.color-acento-botones .tabs-c__tab--active span
+    font-weight: bold !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -179,6 +205,8 @@ figcaption
 .bg-fondo
   &-1
     background-image: url(../assets/curso/temas/bg/2.svg)
+  &-2
+    background-image: url(../assets/curso/temas/bg/3.png)
 .bg-color
   &-1
     background-color: #FEF1CC
@@ -214,6 +242,10 @@ figcaption
   &-2
     padding-right: 3rem
     padding-left: 3rem !important;
+  &-3
+    padding: 3rem !important;
+  &-4
+    padding: 3rem !important;
 .wcus
   &-1
     width: 35%
@@ -230,7 +262,9 @@ figcaption
     padding-left: 0 !important
   &-2
     margin-top: 3rem
-
+.br
+  &-1
+    border-right: 2px solid #CCCCCC
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -259,7 +293,14 @@ figcaption
   .wcus
     &-4
       width: 40% 
-  
+  .bg-fondo
+    &-2
+      background-image: url(../assets/curso/temas/bg/4.png)
+  .pcus
+    &-3
+      padding-bottom:  0rem !important;
+    &-4
+      padding-top:  0rem !important;
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -289,10 +330,15 @@ figcaption
     &-2
       padding-right: 1rem
       padding-left: 1rem !important;
+    &-3
+      padding-bottom:  0rem !important;
+    &-4
+      padding-top:  0rem !important;
   .mcus
     &-2
       margin-bottom: 1rem !important
       margin-top: 1rem
+  
 
   
  
