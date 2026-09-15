@@ -80,7 +80,7 @@
                     th Ejemplo en la gestión territorial
                 tbody
                   tr
-                    td Participación comunitaria
+                    td Comunicación verbal
                     td Se realiza mediante el lenguaje oral o escrito.
                     td Reuniones comunitarias, talleres participativos, informes técnicos.
                   tr
@@ -101,7 +101,9 @@
           .col-12.pcus-2
             .row.justify-content-center.mb-5
               .col-sm-12.col-lg-6
-                p.mb-0 La escucha activa consiste en prestar atención consciente al mensaje que transmite otra persona, procurando comprender su significado antes de responder. Implica observar tanto el contenido verbal como el lenguaje no verbal, formular preguntas cuando sea necesario y demostrar interés por las opiniones de los demás. La comunicación efectiva complementa este proceso al garantizar que el mensaje sea comprendido correctamente por los diferentes actores.
+                p.mb-0 La escucha activa consiste en prestar atención consciente al mensaje que transmite otra persona, procurando comprender su significado antes de responder. Implica observar tanto el contenido verbal como el lenguaje no verbal, formular preguntas cuando sea necesario y demostrar interés por las opiniones de los demás.
+                p.mb-0 La comunicación efectiva complementa este proceso al garantizar que el mensaje sea comprendido correctamente por los diferentes actores involucrados.
+
               .col-sm-12.col-lg-6.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t4/6.png')
             .row.justify-content-center.mb-5

@@ -15,7 +15,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Asimismo, la legislación colombiana reconoce la diversidad étnica, cultural y territorial del país, y garantiza derechos específicos a las comunidades campesinas, indígenas, negras, afrocolombianas, raizales, palenqueras y al pueblo #[i Rrom] (gitano). De igual manera, las políticas públicas ambientales y las iniciativas asociadas con la construcción de paz contribuyen al fortalecimiento de la gobernanza ambiental, la protección del patrimonio natural y el desarrollo 
+          p.mb-0 Asimismo, la legislación colombiana reconoce la diversidad étnica, cultural y territorial del país, y garantiza derechos específicos a las comunidades campesinas, indígenas, negras, afrocolombianas, raizales, palenqueras y al pueblo #[i Rrom] (gitano). De igual manera, las políticas públicas ambientales y las iniciativas asociadas con la construcción de paz contribuyen al fortalecimiento de la gobernanza ambiental, la protección del patrimonio natural y el desarrollo sostenible de los territorios.
       
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -343,7 +343,8 @@
               .col-sm-12.col-lg-5.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t1/14.png')
               .col-sm-12.col-lg-7
-                p.mb-0 Las zonas de reserva campesina tienen como finalidad fortalecer la economía campesina mediante el apoyo a las actividades productivas rurales y el mejoramiento de las condiciones de vida de las comunidades. Asimismo, buscan promover el acceso y la permanencia de los campesinos en la tierra, impulsando procesos de desarrollo rural sostenible que integren aspectos sociales, económicos y ambientales. Estas zonas también contribuyen a la protección y uso adecuado de los recursos naturales, favoreciendo prácticas productivas compatibles con la conservación del ambiente. De igual manera, ayudan a reducir los conflictos relacionados con la tenencia y el uso de la tierra, al tiempo que fortalecen la organización comunitaria y la participación de la población rural en la gestión territorial.
+                p.mb-0 Las zonas de reserva campesina tienen como finalidad fortalecer la economía campesina mediante el apoyo a las actividades productivas rurales y el mejoramiento de las condiciones de vida de las comunidades. Asimismo, buscan promover el acceso y la permanencia de los campesinos en la tierra, impulsando procesos de desarrollo rural sostenible que integren aspectos sociales, económicos y ambientales. Estas zonas también contribuyen a la protección y uso adecuado de los recursos naturales, favoreciendo prácticas productivas compatibles con la conservación del ambiente. De igual manera, ayudan a reducir los conflictos relacionados con la tenencia y el uso de la tierra, al tiempo que fortalecen la organización comunitaria y la participación de la población rural en la gestión y planificación de sus territorios.
+
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 6.] Principales características de las zonas de reserva campesinas
             .tabla-a.color-acento-contenido.mb-0.bg-white
@@ -494,7 +495,8 @@
             .row.justify-content-center.mb-5
               .col-sm-12.col-lg-6
                 p.mb-4 La diversidad cultural constituye uno de los principales patrimonios de Colombia. La protección de esta diversidad implica reconocer y valorar las distintas formas de comprender el territorio, utilizar los recursos naturales y construir relaciones sociales dentro de las comunidades.
-                p.mb-0 La normatividad colombiana promueve el respeto por las diferencias culturales y fomenta la participación de los grupos étnicos en los procesos de decisión.
+                p.mb-0 La normatividad colombiana promueve el respeto por las diferencias culturales y fomenta la participación de los grupos étnicos en los procesos de planificación, gestión ambiental y desarrollo territorial.
+
               .col-sm-12.col-lg-6.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t1/21.png')
             .titulo-sexto.color-acento-contenido
