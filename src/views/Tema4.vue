@@ -24,11 +24,26 @@
         h2 4.1 Comunicación asertiva para la gestión territorial
       p.mb-5(data-aos='fade-right') La comunicación asertiva es una forma de interacción que permite expresar ideas, opiniones, necesidades y sentimientos de manera clara, respetuosa y oportuna, sin vulnerar los derechos de otras personas. En los procesos de gestión territorial constituye una competencia esencial, ya que facilita el diálogo entre los diferentes actores, fortalece la confianza y contribuye a la construcción de acuerdos orientados al bienestar colectivo y la conservación del territorio.
       
+      h3.mb-5 Pasos para una comunicación asertiva
+
       .bg-full-width.bg-fondo-1.mb-0(data-aos='fade-right')
         .p-full-width
           .row.justify-content-center.align-items-center.mb-0
             .col-sm-12.col-lg-6
-              img(src='@/assets/curso/temas/t4/3.svg')
+              ImagenInfografica.color-acento-botones
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/temas/t4/33.svg')
+
+                .tarjeta.bg-color-8.p-3(x="74%" y="2%" numero="+")
+                  p.mb-0 Exprese cómo se siente. 
+
+                .tarjeta.bg-color-8.p-3(x="90%" y="18%" numero="+")
+                  p.mb-0 Manifieste lo que piensa.
+
+                .tarjeta.bg-color-8.p-3(x="90%" y="52%" numero="+")
+                  p.mb-0 Indique lo que desea que suceda.
+              
       
       p.mb-5(data-aos='fade-right') La comunicación asertiva favorece ambientes de respeto y cooperación, disminuye los conflictos derivados de la desinformación y promueve una participación más activa de la comunidad en los procesos de planificación, gestión ambiental y toma de decisiones.
       

@@ -83,8 +83,18 @@
       .bg-full-width.bg-fondo-1.mb-0(data-aos='fade-right')
         .p-full-width
           .row.justify-content-center.align-items-center.mb-0
-            .col-sm-12.col-lg-6
-              img(src='@/assets/curso/temas/t5/4.svg')
+            .col-sm-12.col-md-12.col-lg-10.col-xl-6.list-card
+              .bg-color-1.px-3.py-2.wcus-6.mb-cus.mx-3
+                p.mb-0 Claro.
+            
+              .bg-color-1.px-3.py-2.wcus-6.mb-cus.mx-3
+                p.mb-0 Medible. 
+              .bg-color-1.px-3.py-2.wcus-6.mb-cus.mx-3
+                p.mb-0 Verificable.
+              .bg-color-1.px-3.py-2.wcus-6.mb-cus.mx-3
+                p.mb-0 Pertinente.
+              .bg-color-1.px-3.py-2.wcus-6.mb-cus.mx-3
+                p.mb-0 Alcanzable.
 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         p.mb-0  #[b Tabla 20.] Ejemplos de indicadores

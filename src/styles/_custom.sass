@@ -196,7 +196,9 @@ figcaption
   background-color: #FFF4ED
   &:hover
     background-color: #FFD5B7
-
+.list-card
+  display: flex
+  flex-direction: row
     
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -226,6 +228,8 @@ figcaption
     background-color: #FFF4ED
   &-7
     background-color: #F5F9E7
+  &-8
+    background-color: #E5FAFE
 
 
 .bg
@@ -263,6 +267,8 @@ figcaption
     width: 20% 
   &-5
     width: 30% 
+  &-6
+    width: fit-content
 
 .mcus
   &-1
@@ -275,6 +281,7 @@ figcaption
     border-right: 2px solid #CCCCCC
   &-2
     border-radius: 20px
+
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -311,11 +318,14 @@ figcaption
       padding-bottom:  0rem !important;
     &-4
       padding-top:  0rem !important;
+  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
+  .list-card
+      display: flex
+      flex-direction: column
   
 
 //// MOBILE 576--------------------------------------
